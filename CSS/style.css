@@ -1,0 +1,82 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  background: #fff;
+}
+nav a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px !important;
+  font-weight: 600;
+  color: #000;
+  font-style: normal;
+}
+
+.about {
+  padding: 60px 0px;
+}
+.about h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px !important;
+  font-weight: 600;
+  color: #000;
+  font-style: normal;
+}
+.about p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 400;
+  color: #000;
+  font-style: normal;
+}
+.about button {
+  background-color: #2575FC;
+  padding: 7px 20px;
+  border: none;
+}
+.about button a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 400;
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.skin-specialist {
+  padding-bottom: 60px;
+}
+.skin-specialist .nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.skin-specialist .nav-link:hover {
+  color: #000;
+}
+.skin-specialist h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px !important;
+  font-weight: 600;
+  color: #000;
+  font-style: normal;
+  text-decoration: none;
+}
+.skin-specialist p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 400;
+  color: #000;
+  font-style: normal;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
