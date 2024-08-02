@@ -36,6 +36,7 @@ nav a {
   background-color: #2575FC;
   padding: 7px 20px;
   border: none;
+  color: #fff;
 }
 .about button a {
   font-family: "Montserrat", sans-serif;
@@ -80,7 +81,213 @@ nav a {
   font-style: normal;
   text-decoration: none;
 }
+.skin-specialist button {
+  background: #2575FC;
+  padding: 8px 15px;
+  border: none;
+  color: #fff;
+}
+.skin-specialist button a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 400;
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+}
+.skin-specialist .box {
+  background-color: #2575FC;
+  padding: 30px 0px;
+}
+.skin-specialist .box h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px !important;
+  font-weight: 400;
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+.skin-specialist .box p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 400;
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+}
 
 .gallery {
   padding-bottom: 60px;
+}
+.gallery h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px !important;
+  font-weight: 600;
+  color: #000;
+  font-style: normal;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.total-health {
+  padding-bottom: 60px;
+}
+.total-health h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px !important;
+  font-weight: 600;
+  color: #000;
+  font-style: normal;
+  text-decoration: none;
+}
+.total-health p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 400;
+  color: #000;
+  font-style: normal;
+  text-decoration: none;
+}
+.total-health h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px !important;
+  font-weight: 500;
+  color: #000;
+  font-style: normal;
+  text-decoration: none;
+}
+.total-health h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px !important;
+  font-weight: 400;
+  color: #000;
+  font-style: normal;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #334155;
+  padding: 40px 0px;
+}
+footer h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px !important;
+  font-weight: 700;
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+}
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 400;
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+}
+footer p a {
+  text-decoration: none;
+  color: white;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 999999;
+}
+
+.form-container {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  width: 40%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  padding: 20px 120px;
+  border-radius: 5px;
+  display: none;
+  z-index: 999999;
+}
+
+.form-container button:hover {
+  background-color: white;
+  color: black;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.popup_form .cross {
+  background-color: #2575FC;
+  color: #fff;
+}
+.popup_form .cross:hover {
+  background-color: #2575FC;
+  color: #fff;
+}
+
+.popup_form label {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.popup_form input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #53626a;
+}
+
+.popup_form textarea {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #53626a;
+}
+
+.popup_form h5 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+.popup_form h6 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.popup_form button {
+  background-color: #000;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.popup_form button:hover {
+  border: 1px solid #000;
+}
+
+@media (max-width: 576px) {
+  .form-container {
+    top: 50%;
+    width: 100%;
+    padding: 50px 60px;
+  }
+  .btn_brochure {
+    background-color: #1e1916;
+    padding: 5px 0 20px 0;
+    margin-top: -5px;
+  }
 }/*# sourceMappingURL=style.css.map */

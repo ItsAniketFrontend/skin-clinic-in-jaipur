@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 
 <body>
@@ -30,19 +32,19 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav  mb-2 mb-lg-0">
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">Treatments</a>
+                            <a class="nav-link" href="#treatment">Treatments</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="#gallery">Gallery</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="">Appointment</a>
+                            <a class="nav-link" onclick="toggleForm()">Appointment</a>
                         </li>
                     </ul>
                 </div>
@@ -51,14 +53,17 @@
     </header>
 
     <main>
-        <section class="banner">
+        <section class="banner" id="home">
             <img src="Images/banner.jpg" width="100%" height="500" alt="">
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-lg-6">
+                        <img src="Images/doctor.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6">
                         <h2>Complete Medical
                             Solutions in One Place</h2>
                         <p> Blue Orchid Health Care, based in Jaipur, has been serving the community for two years. This
@@ -68,21 +73,22 @@
                             and nutrients. <br>
                             For the first time in Rajasthan, we bring to you the concept of green dentistry. chemical
                             free, metal free and non toxic dentistry is practiced here.</p>
-                        <button><a href="">Appointment</a></button>
+                        <button><a onclick="toggleForm()">Appointment</a></button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="skin-specialist">
+        <section class="skin-specialist" id="treatment">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2>Skin Specialist In Jaipur</h2>
                         <p>Jaipur’s leading skin treatment clinic offers advanced procedures for flawless skin, <br>
                             addressing various concerns with expert dermatologists and state-of-the-art technology.</p>
+                        <button><a onclick="toggleForm()">Book Now</a></button>
                     </div>
-                    <div class="col-12">
+                    <!-- <div class="col-12">
                         <ul class="nav d-flex align-items-center justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
@@ -171,12 +177,30 @@
                             <div class="tab-pane fade" id="pills-prp" role="tabpanel"
                                 aria-labelledby="pills-prp-tab" tabindex="0">...</div>
                         </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="container-fluid mt-5">
+                <div class="box">
+                    <div class="row">
+                        <div class="col-lg-4 col-12 text-center">
+                            <h2>200,000+</h2>
+                            <p>Happy Client</p>
+                        </div>
+                        <div class="col-lg-4 col-12 text-center">
+                            <h2>5+</h2>
+                            <p>Expert Doctor</p>
+                        </div>
+                        <div class="col-lg-4 col-12 text-center">
+                            <h2>10+</h2>
+                            <p>Clinic Room</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="gallery">
+        <section class="gallery" id="gallery">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -209,7 +233,117 @@
                 </div>
             </div>
         </section>
+
+        <section class="total-health">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Total Health Care Solutions</h2>
+                        <p>From expert consultations to tailored treatments, we’ve got your health covered. <br> Trust us to provide comprehensive solutions for all your wellness needs, ensuring a happier, healthier you.</p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="col-box">
+                            <img src="Images/building.png" width="64px" alt="">
+                            <h5>Qualified Facilities</h5>
+                            <h6>Our state-of-the-art Qualified Facilities boast a dedicated team of skilled doctors equipped with cutting-edge technology, providing top-notch healthcare tailored to individual needs.</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="col-box">
+                            <img src="Images/stethoscope.png" width="64px" alt="">
+                            <h5>Professional Services</h5>
+                            <h6>"Experience unparalleled expertise and personalized care through our dedicated team of seasoned professionals in our clinic's comprehensive range of specialized services."</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="col-box">
+                            <img src="Images/maintenance.png" width="64px" alt="">
+                            <h5>Modern Equipment</h5>
+                            <h6>Modern equipment for health integrates cutting-edge technology to revolutionize diagnosis, treatment, and patient care</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="col-box">
+                            <img src="Images/doctor.png" width="64px" alt="">
+                            <h5>Top Level Doctor</h5>
+                            <h6>We have a diverse team of highly skilled doctors, each with their own specialized expertise and dedication to providing exceptional care.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container popup_form">
+            <div class="overlay" id="overlay"></div>
+      
+            <!-- Form Container -->
+            <div class="form-container" id="formContainer">
+                <span class="close-btn btn cross" onclick="toggleForm()">X</span>
+                <h5 class="text-center mt-4 mb-4 ">Please fill up the below details</h5>
+                <h6>4BHK Flats Starting From 3Cr Onwards.</h6>
+                <form id="logs" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control txtNumeric" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone number</label>
+                        <input type="text" class="form-control numbersOnly" id="phone" minlength="10" maxlength="10" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="text-center mb-3">
+                        <button type="submit" id="btnsubmits" class="btn w-50">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+            // Function to toggle form visibility
+            function toggleForm() {
+                var overlay = document.getElementById('overlay');
+                var formContainer = document.getElementById('formContainer');
+                if (overlay.style.display === 'none' || overlay.style.display === '') {
+                    overlay.style.display = 'block';
+                    formContainer.style.display = 'block';
+                } else {
+                    overlay.style.display = 'none';
+                    formContainer.style.display = 'none';
+                }
+            }
+        </script>
     </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <img src="Images/logo.jpg" width="180px" alt="">
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h5>Our Address</h5>
+                    <p>B-9/635, Sarthi Marg, Chitrakoot,
+                        Vaishali Nagar, Jaipur, Rajasthan 302021</p>
+                    <p>E-Mail : <a href="">blueorchidhealthcarecentre@gmail.com</a></p>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h5>Working Time</h5>
+                    <p>Monday - Friday - 10.00 AM - 7 PM</p>
+                    <p>Sunday - 10.00 AM - 7 PM</p>
+                    <p>Saturday - Closed</p>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h5>Emergency Cases</h5>
+                    <p><img src="Images/telephone.png" width="24" alt="">+91 7597057054</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
