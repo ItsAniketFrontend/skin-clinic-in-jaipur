@@ -15,6 +15,36 @@ nav{
     }
 }
 
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url(../Images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    button{
+        border: none;
+        background-color: #2575FC;
+        padding: 6px 20px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px !important;
+        font-weight: 600;
+        color: #fff;
+        font-style: normal;
+    }
+    h1{
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 25px !important;
+        font-weight: 600;
+        color: #fff;
+        font-style: normal;
+    }
+}
+
 .about{
     padding: 60px 0px;
     h2{
@@ -187,6 +217,7 @@ footer{
             a{
                 text-decoration: none;
                 color: #ffff;
+                width: fit-content;
             }  
     }
 }
