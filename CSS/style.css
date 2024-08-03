@@ -243,7 +243,7 @@ footer p a {
   background-color: #fff;
   background-position: center;
   background-size: cover;
-  padding: 20px 120px;
+  padding: 20px 50px;
   border-radius: 5px;
   display: none;
   z-index: 999999;
@@ -302,7 +302,7 @@ footer p a {
 }
 
 .popup_form button {
-  background-color: #000;
+  background-color: #2575FC;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
