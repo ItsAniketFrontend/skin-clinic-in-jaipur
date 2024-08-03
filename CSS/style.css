@@ -323,6 +323,13 @@ footer p a {
     margin-top: -5px;
   }
 }
+.sticky-btn {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1000;
+}
+
 .thank-you h1 {
   color: #000;
   font-family: "Montserrat", sans-serif;
